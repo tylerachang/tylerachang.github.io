@@ -1,23 +1,65 @@
 /** Style sheet. */
 
 * {
-	font-family:		"Calibri", sans-serif;
+	font-family:		'Segoe UI', Roboto, Arial, sans-serif;
+}
+
+div[id="sidebar"] {
+	width:				15%;
+	height:				100%;
+	position:			fixed;
+	z-index: 			1;
+	top:				0;
+	left:				0;
+	text-align:			left;
+    background-color:	#cc99ff;
+	color:				#ffffff;
+	font-size:			1em;
+}
+
+img[id="selfimage"] {
+	width:				70%;
+	max-width:			12em;
+	display:			block;
+	margin-left:		auto;
+	margin-right:		auto;
+	margin-top:			4em;
+	border-radius:		50%;
+	border-style:		solid;
+	border-color:		#000000;
+	border-width:		2;
 }
 
 div[id="content"] {
+	width:				83%;
+	position:			fixed;
+	top:				0;
+	left:				17%;
 	text-align:			left;
-	font-family:		"Calibri", sans-serif;
 	color:				#000000;
-	font-size:			24pt;
-	padding-top:		5%;
-	padding-bottom:		5%;
-	padding-left:		5%;
-	padding-right:		5%;
+	font-size:			1em;
+	padding-top:		3em;
+	padding-bottom:		1em;
+	padding-left:		1em;
+	padding-right:		2em;
 }
 
 div[id="header"] {
 	color:				#4A00A2;
 	font-weight:		bold;
-	font-size:			2em;
+	font-size:			4em;
 	padding-bottom:		0.25em;
+}
+
+div[id="subheader"] {
+	color:				#666666;
+	font-weight:		bold;
+	font-size:			1.7em;
+	padding-bottom: 	0.25em;
+}
+
+.paragraph {
+	color:				#000000;
+	font-weight:		normal;
+	font-size:			1.5em;
 }
