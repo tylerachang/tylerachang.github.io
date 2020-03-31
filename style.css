@@ -12,7 +12,7 @@ div[id="sidebar"] {
 	top:				0;
 	left:				0;
 	text-align:			left;
-    background-color:	#cc99ff;
+    background-color:	#bb99ff;
 	color:				#ffffff;
 	font-size:			1em;
 }
@@ -37,7 +37,6 @@ div[id="content"] {
 	left:				17%;
 	text-align:			left;
 	color:				#000000;
-	font-size:			1em;
 	padding-top:		3em;
 	padding-bottom:		1em;
 	padding-left:		1em;
@@ -62,4 +61,11 @@ div[id="subheader"] {
 	color:				#000000;
 	font-weight:		normal;
 	font-size:			1.5em;
+}
+
+@media only screen and (max-device-width: 500px) {
+* {
+	font-family:		'Segoe UI', Roboto, Arial, sans-serif;
+	font-size:			115%;
+}
 }
