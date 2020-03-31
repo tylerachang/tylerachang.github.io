@@ -9,7 +9,7 @@ div[id="sidebar"] {
 	height:				100%;
 	position:			fixed;
 	z-index: 			1;
-	top:				0;
+	top:				10%;
 	left:				0;
 	text-align:			left;
     background-color:	#bb99ff;
@@ -30,10 +30,23 @@ img[id="selfimage"] {
 	border-width:		2;
 }
 
+div[id="topbar"] {
+	width:				100%;
+	height:				10%;
+	position:			fixed;
+	z-index: 			2;
+	top:				0;
+	left:				0;
+	text-align:			left;
+    background-color:	#7755bb;
+	color:				#ffffff;
+	font-size:			1em;
+}
+
 div[id="content"] {
 	width:				83%;
 	position:			fixed;
-	top:				0;
+	top:				10%;
 	left:				17%;
 	text-align:			left;
 	color:				#000000;
@@ -64,8 +77,13 @@ div[id="subheader"] {
 }
 
 @media only screen and (max-device-width: 500px) {
-* {
-	font-family:		'Segoe UI', Roboto, Arial, sans-serif;
-	font-size:			115%;
-}
+	/** Larger font. */
+	* {
+		font-family:		'Segoe UI', Roboto, Arial, sans-serif;
+		font-size:			115%;
+	}
+	/** Smaller top bar. */
+	div[id="sidebar"] { top:			5%; }
+	div[id="topbar"] { height:			5%; }
+	div[id="content"] { top:			5%; }
 }
