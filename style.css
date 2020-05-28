@@ -18,17 +18,27 @@ div[id="sidebar"] {
 }
 
 img[id="selfimage"] {
-	display:			block;
-	width:				70%;
 	max-width:			12em;
 	display:			block;
 	margin-left:		auto;
 	margin-right:		auto;
-	margin-top:			4em;
 	border-radius:		50%;
 	border-style:		solid;
 	border-color:		#000000;
 	border-width:		2;
+}
+
+div[id="sidebar"]>img[id="selfimage"] {
+	display:			block;
+	margin-top:			4em;
+	width:				70%;
+}
+div[id="content"]>img[id="selfimage"] {
+	display:			none;
+	margin-top:			1em;
+	margin-bottom:		1em;
+	margin-left:		1em;
+	width:				11em;
 }
 
 div[id="topbar"] {
@@ -119,5 +129,6 @@ a:hover{
 	}
 	
 	div[id="content"] { width:			90%; }
-	img[id="selfimage"] { display:	none; }
+	div[id="sidebar"]>img[id="selfimage"] { display:	none; }
+	div[id="content"]>img[id="selfimage"] { display:	block; }
 }
