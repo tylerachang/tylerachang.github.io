@@ -1,0 +1,5 @@
+Sitemap: https://tylerachang.github.io/sitemap.txt
+
+User-agent: *
+Allow: /index.html
+Disallow: /
