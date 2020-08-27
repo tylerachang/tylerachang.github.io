@@ -12,7 +12,7 @@ div[id="sidebar"] {
 	top:				5%;
 	left:				0;
 	text-align:			left;
-    background-color:	#bbaaff;
+    background-color:	#cccccc;
 	color:				#ffffff;
 	font-size:			1em;
 }
@@ -49,7 +49,7 @@ div[id="topbar"] {
 	top:				0;
 	left:				0;
 	text-align:			left;
-    background-color:	#6655bb;
+    background-color:	#000000;
 	color:				#ffffff;
 	font-size:			1em;
 }
@@ -75,14 +75,14 @@ div[id="content"] {
 }
 
 div[id="header"] {
-	color:				#220099;
+	color:				#000000;
 	font-weight:		bold;
 	font-size:			3.4em;
 	padding-bottom:		0.25em;
 }
 
 div[id="subheader"] {
-	color:				#221199;
+	color:				#000000;
 	font-weight:		bold;
 	font-size:			1.5em;
 	padding-bottom: 	0.4em;
@@ -103,7 +103,7 @@ div[class="publication"] {
 }
 
 a {
-	color:				#7755bb;
+	color:				#666666;
 	text-decoration:	none;
 }
 a:hover{
