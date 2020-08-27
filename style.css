@@ -12,7 +12,7 @@ div[id="sidebar"] {
 	top:				5%;
 	left:				0;
 	text-align:			left;
-    background-color:	#bb99ff;
+    background-color:	#bbaaff;
 	color:				#ffffff;
 	font-size:			1em;
 }
@@ -49,7 +49,7 @@ div[id="topbar"] {
 	top:				0;
 	left:				0;
 	text-align:			left;
-    background-color:	#7755bb;
+    background-color:	#000000;
 	color:				#ffffff;
 	font-size:			1em;
 }
@@ -75,14 +75,14 @@ div[id="content"] {
 }
 
 div[id="header"] {
-	color:				#4A00A2;
+	color:				#000000;
 	font-weight:		bold;
 	font-size:			3.4em;
 	padding-bottom:		0.25em;
 }
 
 div[id="subheader"] {
-	color:				#666666;
+	color:				#000000;
 	font-weight:		bold;
 	font-size:			1.5em;
 	padding-bottom: 	0.4em;
