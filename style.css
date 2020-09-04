@@ -38,7 +38,7 @@ div[class="content"]>img[id="selfimage"] {
 	margin-top:			1em;
 	margin-bottom:		1em;
 	margin-left:		1em;
-	width:				11em;
+	width:				10em;
 }
 
 div[id="topbar"] {
@@ -111,6 +111,10 @@ a:hover{
 }
 
 @media only screen and (max-device-width: 500px) {
+	/** Smaller font because viewport makes the font huge. */
+	div[class="header"] {
+		font-size:		2.5em;
+	}
 	/** Smaller top bar. */
 	div[id="sidebar"] {
 		top:			5%;
