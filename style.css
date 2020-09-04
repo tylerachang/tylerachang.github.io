@@ -115,6 +115,9 @@ a:hover{
 	div[class="header"] {
 		font-size:		2.5em;
 	}
+	div {
+		font-size:		0.95em;
+	}
 	/** Smaller top bar. */
 	div[id="sidebar"] {
 		top:			5%;
