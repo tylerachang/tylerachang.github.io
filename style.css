@@ -111,11 +111,6 @@ a:hover{
 }
 
 @media only screen and (max-device-width: 500px) {
-	/** Larger font. */
-	div {
-		font-family:		'Segoe UI', Roboto, Arial, sans-serif;
-		font-size:			1.3em;
-	}
 	/** Smaller top bar. */
 	div[id="sidebar"] {
 		top:			5%;
