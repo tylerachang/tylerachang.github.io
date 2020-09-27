@@ -129,8 +129,6 @@ a:hover{
 		left:			12%;
 		height:			95%;
 	}
-	
-	div[class="content"] { width:			90%; }
 	div[id="sidebar"]>img[id="selfimage"] { display:	none; }
 	div[class="content"]>img[id="selfimage"] { display:	block; }
 }
