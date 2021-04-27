@@ -5,7 +5,7 @@
 }
 
 div[id="sidebar"] {
-	width:				15%;
+	width:				10%;
 	height:				100%;
 	position:			fixed;
 	z-index: 			1;
@@ -17,28 +17,14 @@ div[id="sidebar"] {
 	font-size:			1em;
 }
 
-img[id="selfimage"] {
-	max-width:			12em;
-	display:			block;
-	margin-left:		auto;
-	margin-right:		auto;
-	border-radius:		50%;
-	border-style:		solid;
-	border-color:		#000000;
-	border-width:		2;
-}
-
-div[id="sidebar"]>img[id="selfimage"] {
-	display:			block;
-	margin-top:			4em;
-	width:				70%;
-}
 div[class="content"]>img[id="selfimage"] {
-	display:			none;
+	display:			block;
+	width:				25em;
+	max-width:			25em;
 	margin-top:			1em;
 	margin-bottom:		1em;
-	margin-left:		1em;
-	width:				10em;
+	margin-left:		0em;
+	margin-right:		auto;
 }
 
 div[id="topbar"] {
@@ -55,12 +41,12 @@ div[id="topbar"] {
 }
 
 div[id="main-box"] {
-	width:				83%;
+	width:				88%;
 	overflow-y:			scroll;
 	position:			fixed;
-	top:				5%;
+	top:				3%;
 	height:				95%;
-	left:				17%;
+	left:				12%;
 }
 
 div[class="content"] {
@@ -118,17 +104,5 @@ a:hover{
 	div {
 		font-size:		0.95em;
 	}
-	/** Smaller top bar. */
-	div[id="sidebar"] {
-		top:			5%;
-		width:			10%;
-	}
-	div[id="topbar"] { height:			5%; }
-	div[id="main-box"] {
-		top:			3%;
-		left:			12%;
-		height:			95%;
-	}
-	div[id="sidebar"]>img[id="selfimage"] { display:	none; }
-	div[class="content"]>img[id="selfimage"] { display:	block; }
+	div[class="content"]>img[id="selfimage"] { width:	90%; }
 }
