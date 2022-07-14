@@ -82,6 +82,12 @@ div[class="paragraph"] {
 	font-size:			1.1em;
 }
 
+div[class="smallparagraph"] {
+	color:				#000000;
+	font-weight:		normal;
+	font-size:			1.0em;
+}
+
 div[class="publication"] {
 	color:				#000000;
 	font-weight:		normal;
