@@ -110,7 +110,28 @@ a:hover{
 		font-size:		3.0em;
 	}
 	div {
-		font-size:		0.95em;
+		font-size:		1.1em;
 	}
 	img[id="selfimage"] { width:	90%; }
+	/** Sidebar moves to top. */
+	div[id="sidebar"] {
+		width:				100%;
+		height:				3%;
+		position:			fixed;
+		z-index: 			1;
+		top:				5%;
+		left:				0;
+		text-align:			left;
+		background-color:	#cccccc;
+		color:				#ffffff;
+		font-size:			1em;
+	}
+	div[id="main-box"] {
+		width:				98%;
+		overflow-y:			scroll;
+		position:			fixed;
+		top:				2;
+		height:				95%;
+		left:				2%;
+	}
 }
